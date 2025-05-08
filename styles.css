@@ -27,6 +27,52 @@ a,
 
 /* DESKTOP NAV */
 
+#side-navbar {
+  position: fixed; /* Keeps the navbar fixed on the side */
+  right: 5vh; /* Aligns it to the left of the viewport */
+  top: 70vh; /* Centers it vertically */
+  transform: translateY(-50%) rotate(90deg); /* Rotates the navbar */
+  transform-origin: right center; /* Adju sts the rotation point */
+  background: white;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+#side-navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row; /* Keeps links in a row after rotation */
+}
+
+#side-navbar .nav-links a {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -2px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+#side-navbar .nav-links a:hover {
+  color: royalblue;
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+#side-navbar .home-side-nav.homeClicked {
+  font-size: 2.5rem;
+}
+
+#side-navbar .projects-side-nav.projectsClicked {
+  font-size: 2.5rem;
+}
+
+#side-navbar .contact-side-nav.contactClicked {
+  font-size: 2.5rem;
+}
+
 nav,
 .nav-links {
   display: flex;
@@ -36,6 +82,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
 }
 
 .nav-links {
@@ -52,7 +102,6 @@ a {
 
 a:hover {
   color: royalblue;
-  font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
   text-decoration-color: royalblue;
@@ -139,9 +188,13 @@ section {
 }
 
 .tools {
-  font-weight: bold;
-  font-size: 2rem;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: black;
   padding-top: 4rem;
+  letter-spacing: -3px;
 }
 
 .tool-icons {
