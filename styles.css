@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Ramabhadra&display=swap");
 
 /* GENERAL */
 * {
@@ -59,13 +59,14 @@ a:hover {
 }
 
 .nav-logo {
-  font-family: "Staatliches", sans-serif;
+  font-family: "Ramabhadra", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
   color: black;
   outline: black solid 2px;
-  outline-offset: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .nav-logo:hover {
@@ -74,7 +75,7 @@ a:hover {
 
 /* HAMBURGER MENU */
 
-.hamburger-nav {
+/* .hamburger-nav {
   display: none;
 }
 
@@ -90,7 +91,7 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
-}
+} */
 
 /* SECTION */
 
@@ -128,7 +129,7 @@ section {
 }
 
 .title {
-  font-family: "Staatliches", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
@@ -136,11 +137,9 @@ section {
 }
 
 .tools {
-  font-family: "Staatliches", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: bold;
   font-size: 2rem;
-  padding-top: 1rem;
+  padding-top: 4rem;
 }
 
 .tool-icons {
