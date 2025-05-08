@@ -264,3 +264,13 @@ section {
 .btn-container {
   gap: 1rem;
 }
+
+#contact {
+  background: rgb(53, 53, 53);
+  margin-bottom: 5vh;
+  border-radius: 3rem;
+}
+
+#contact .title {
+  color: white;
+}
