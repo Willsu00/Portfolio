@@ -63,10 +63,11 @@ a:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
+  letter-spacing: -10px;
   color: black;
   outline: black solid 2px;
   padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .nav-logo:hover {
@@ -133,6 +134,7 @@ section {
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
+  letter-spacing: -5px;
   text-align: center;
 }
 
