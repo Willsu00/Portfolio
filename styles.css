@@ -292,8 +292,12 @@ section {
     letter-spacing: -3px;
   }
 
+  #side-navbar .nav-links a {
+    font-size: 1.5rem;
+  }
+
   .description {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -304,6 +308,10 @@ section {
   }
 
   .description {
+    font-size: 1rem;
+  }
+
+  #side-navbar .nav-links a {
     font-size: 1rem;
   }
 }
