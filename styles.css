@@ -33,7 +33,6 @@ a,
   top: 70vh; /* Centers it vertically */
   transform: translateY(-50%) rotate(90deg); /* Rotates the navbar */
   transform-origin: right center; /* Adju sts the rotation point */
-  background: white;
   z-index: 1000;
   padding: 1rem;
 }
@@ -85,7 +84,6 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: white;
 }
 
 .nav-links {
@@ -199,6 +197,7 @@ section {
 
 .tool-icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem;
   margin-top: 2rem;
@@ -265,13 +264,46 @@ section {
   gap: 1rem;
 }
 
+/* PROJECTS SECTION */
+
+#projects {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* CONTACT SECTION */
+
 #contact {
   background: rgb(53, 53, 53);
   margin-bottom: 5vh;
-  border-radius: 3rem;
-  height: 90vh;
+  margin-left: 13%;
+  margin-right: 13%;
+  border-radius: 50px;
+  height: 55vh;
 }
 
 #contact .title {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem; /* Smaller font size for tablets */
+    letter-spacing: -3px;
+  }
+
+  .description {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem; /* Smaller font size for mobile devices */
+    letter-spacing: -2px;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
 }
